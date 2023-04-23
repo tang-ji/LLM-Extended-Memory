@@ -1,16 +1,21 @@
-## LLM Extended Memory Framework
+# LLM Extended Memory Framework
+
 The LLM Extended Memory Framework is an open-source project designed to enhance the memory capabilities of large language models like OpenAI's GPT-series. By implementing an efficient encoding, storage, indexing, recall, and decoding system, this project aims to overcome the memory limitations associated with typical input+context character limits.
 
-## Features
-- **Memory Encoder**: Compact semantic representations of conversation and context
-- **External Memory Storage**: Support for storing data on various storage media (local files, databases, etc.)
-- **Indexing System**: Efficient retrieval of required information based on keyword, topic, or semantic searches
-- **Memory Recall**: Seamless retrieval and reintegration of essential data into ongoing tasks or conversations
-- **Memory Decoder**: Reconstruction of original data from their encoded representations for LLM model compatibility
-- **Integration with LLM**: Working in conjunction with LLM models for improved performance in complex tasks and long conversations
+## Feature Implementation Progress Tracker
+
+- [x] **LLM API Calling Tools** : Tools for calling LLM APIs to get and decode responses for user inputs
+- [ ] **Memory Encoder** : Compact semantic representations of conversation and context
+- [ ] **External Memory Storage**: Support for storing data on various storage media (local files, databases, etc.)
+- [ ] **Indexing System**: Efficient retrieval of required information based on keyword, topic, or semantic searches
+- [ ] **Memory Recall**: Seamless retrieval and reintegration of essential data into ongoing tasks or conversations
+- [ ] **Memory Decoder**: Reconstruction of original data from their encoded representations for LLM model compatibility
+- [ ] **Integration with LLM**: Working in conjunction with LLM models for improved performance in complex tasks and long conversations
 
 ## Running Tests
+
 To run tests, execute the following command from the project directory:
+
 ```bash
-python run_tests.py
+python llm_extended_memory/run_tests.py
 ```
