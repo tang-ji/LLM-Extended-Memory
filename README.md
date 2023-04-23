@@ -8,3 +8,9 @@ The LLM Extended Memory Framework is an open-source project designed to enhance 
 - **Memory Recall**: Seamless retrieval and reintegration of essential data into ongoing tasks or conversations
 - **Memory Decoder**: Reconstruction of original data from their encoded representations for LLM model compatibility
 - **Integration with LLM**: Working in conjunction with LLM models for improved performance in complex tasks and long conversations
+
+## Running Tests
+To run tests, execute the following command from the project directory:
+```bash
+python run_tests.py
+```
